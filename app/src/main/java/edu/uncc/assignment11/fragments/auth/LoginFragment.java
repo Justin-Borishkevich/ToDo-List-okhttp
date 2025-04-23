@@ -60,16 +60,6 @@ public class LoginFragment extends Fragment {
                 } else if(password.isEmpty()){
                     Toast.makeText(getActivity(), "Enter Password!!", Toast.LENGTH_SHORT).show();
                 } else {
-//                    {
-//                        "status": "ok",
-//                            "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE3NDQ4MDY1MjMsImV4cCI6MTc3NjM0MjUyMywianRpIjoiMllTSDFraXVFQ09abXdkbGg0emlINiIsInVzZXIiOjE2Mn0.IXyNnL6i35BfLqUnFrH1O4X8pY71HI_eH11QcTihe38",
-//                            "user_id": 162,
-//                            "user_email": "test@t.com",
-//                            "user_fname": "Test",
-//                            "user_lname": "Testing",
-//                            "user_role": "USER"
-//                    }
-
                     FormBody formBody = new FormBody.Builder()
                             .addEncoded("email", email)
                             .addEncoded("password", password)
