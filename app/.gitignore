@@ -1,0 +1,28 @@
+# Android/IntelliJ specific
+.idea/
+.gradle/
+build/
+captures/
+.externalNativeBuild/
+
+# Local configuration
+local.properties
+
+# Signing files
+*.jks
+*.keystore
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Dependency caches
+*.iml
+*.log
+
+# API Keys / Env Files
+*.env
+apikeys.json
+
+# OkHttp cache (if applicable)
+okhttp-cache/
